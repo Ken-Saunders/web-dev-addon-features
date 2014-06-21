@@ -1,0 +1,368 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+<head>
+<title>Web Developer Firefox Extension - Features List</title>
+<meta http-equiv="Content-Type" content="text/html;  charset=UTF-8">
+<meta name="author" content="Ken Saunders">
+				
+<style type="text/css">
+	h2 {
+	font-size: 1.4em;
+	margin-top: -12px;
+
+	}
+
+	h4 {
+	font-size: 1.3em;
+
+	}
+
+	hr {
+	border-top: 0px solid rgba(0, 0, 0, 0.2);
+	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+	border-left: 0px solid rgba(0, 0, 0, 0.2);
+	border-right: 0px solid rgba(0, 0, 0, 0.2);
+
+	}
+
+	#ulmenu {
+	padding-left: 0;
+
+	}
+
+	#ulmenu li {
+	padding: 0px 4px 0px 4px;
+	display: inline-block; 
+	list-style: none; 
+	line-height: 28px;
+
+	}
+
+	li {
+	line-height: 24px;
+
+	}
+
+	.listmargin {
+	margin-top: -10px;
+	list-style: none;
+
+	}
+
+	.listsub {
+	margin-left: 5px;
+	list-style: none;
+
+	}
+
+	a, a:visited {
+	text-decoration: none;
+	color: #0000DD;
+
+	}
+
+	a:hover, a:visited:hover {
+	color: #0000CC;
+	border-bottom: 1px solid rgba(0, 128, 0, 0.4);
+
+	}
+
+	#pf {
+	padding: 20px;
+	border-top: 1px solid rgba(0, 0, 0, 0.2);
+	line-height: 29px;
+
+	}
+</style>
+</head>
+<body>
+<h1>Web Developer Firefox Extension</h1>
+<h2>Features List</h2>
+<p>
+<img src="file:///C:/Users/Ken/Desktop/default/menu-2x.png" style="padding-right: 10px;"><img src="file:///C:/Users/Ken/Desktop/Web-Dev-Feat/Toolbar.png" alt=""><br>
+</p>
+				
+<ul id="ulmenu">
+	<li> <a href="#Disable">Disable</a></li>
+	<li><a href="#Cookies">Cookies</a></li>
+	<li><a href="#CSS">CSS</a></li>
+	<li><a href="#Forms">Forms</a></li>
+	<li><a href="#Images">Images</a></li>
+	<li><a href="#Information">Information</a></li>
+	<li><a href="#Miscellaneous">Miscellaneous</a></li>
+	<li><a href="#Outline">Outline</a></li>
+	<li><a href="#Resize">Resize</a></li>
+	<li><a href="#Tools">Tools</a></li>
+	<li><a href="#Source">View Source</a></li>
+	<li><a href="#Options">Options</a></li>
+</ul>
+				
+<h3  id="Disable"><strong>Disable</strong></h3>
+<ul class="listmargin">
+<li>Disable Cache</li>
+<li>Disable Entire Cache</li>
+		<li>Check For Newer Version Of Page &#8595;</li>
+				<ul class="listsub">
+				<li>Check For Newer Version Of Page When Page Is Out Of Date</li>
+				<li>Check For Newer Version Of Page Every Time</li>
+				<li>Check For Newer Version Of Page Once Per Session</li>
+				<li>Never Check For Newer Version Of Page</li>
+				</ul>
+<li>Disable DNS Cache</li>
+<li>Disable Java</li>
+		<li>Disable JavaScript &#8595;</li>
+				<ul class="listsub">
+				<li>Disable All JavaScript</li>
+				<li>Disable Strict JavaScript Warnings</li>
+				</li>
+				</ul>
+<li>Disable Meta Redirects</li>
+<li>Disable Minimum Font Size</li>
+<li>Disable Page Colors</li>
+<li>Disable Popup Blocker</li>
+		<li>Disable Proxy &#8595;</li>
+				<ul class="listsub">
+				<li>Use No Proxy</li>
+				<li>Use Auto-detect Proxy</li>
+				<li>Use Configuration URL Proxy</li>
+				<li>Use Manual Proxy</li>
+				<li>Use System Proxy</li>
+				</ul>
+<li>Disable Referrers</li>
+</ul>
+</ul>
+</li>
+<hr>
+<h3 id="Cookies"><strong>Cookies</strong></h3>
+<ul class="listmargin">
+		<li>Disable Cookies &#8595;</li>
+				<ul class="listsub">
+				<li>Disable All Cookies</li>
+				<li>Disable Third-Party Cookies</li>
+				</ul>
+<li>Add Cookie...</li>
+<li>Delete Domain Cookies</li>
+<li>Delete Path Cookies</li>
+<li>Delete Session Cookies</li>
+<li>View Cookie Information</li>
+</ul>
+<hr>
+
+<h3 id="CSS"><strong>CSS</strong></h3>
+<ul class="listmargin">
+		<li>Disable Styles &#8595;</li>
+					<ul class="listsub">
+					<li>Disable All Styles</li>
+					<li>Disable Browser Default Styles</li>
+					<li>Disable Embedded Styles</li>
+					<li>Disable Inline Styles</li>
+					<li>Disable Linked Style Sheets</li>
+					<li>Disable Print Styles</li>
+					<li>Disable Individual Style Sheet</li>
+					</ul>
+<li>Add User Style Sheet...</li>
+<li>Display Style Information</li>
+		<li>Display Styles By Media Type &#8595;</li>
+					<ul class="listsub">
+					<li>Display Handheld Styles</li>
+					<li>Display Print Styles</li>
+					</ul>
+<li>Edit CSS</li>
+<li>Reload Linked Style Sheets</li>
+<li>Use Border Box Model</li>
+<li>View CSS</li>
+</ul>
+<hr>
+
+<h3 id="Forms"><strong>Forms</strong></h3>
+<ul class="listmargin">
+<li>Clear Form Fields</li>
+<li>Clear Radio Buttons</li>
+			<li>Convert Form Methods &#8595;</li>
+					<ul class="listsub">
+					<li>Convert GETs To POSTs</li>
+					<li>Convert POSTs To GETs</li>
+					</ul>
+<li>Convert Select Elements To Text Inputs</li>
+<li>Convert Text Inputs To Textareas</li>
+<li>Display Form Details</li>
+<li>Display Passwords</li>
+<li>Enable Auto Completion</li>
+<li>Enable Form Fields</li>
+<li>Expand Select Elements</li>
+<li>Make Form Fields Writable</li>
+<li>Outline Form Fields Without Labels</li>
+<li>Populate Form Fields</li>
+<li>Remove Maximum Lengths</li>
+		<li>Toggle Checkboxes &#8595;</li>
+					<ul class="listsub">
+					<li>Check All Checkboxes</li>
+					<li>Uncheck All Checkboxes</li>
+					</ul>
+<li>View Form Information</li>
+</ul>
+<hr>
+
+<h3 id="Images"><strong>Images</strong></h3>
+<ul class="listmargin">
+		<li>Disable Images &#8595;</li>
+					<ul class="listsub">
+					<li>Disable All Images</li>
+					<li>Disable External Site Images</li>
+					<li>Disable Image Animations</li>
+					</ul>
+<li>Display Alt Attributes</li>
+<li>Display Image Dimensions</li>
+<li>Display Image File Sizes</li>
+<li>Display Image Paths</li>
+<li>Find Broken Images</li>
+<li>Hide Background Images</li>
+<li>Hide Images</li>
+<li>Make Images Full Size</li>
+<li>Make Images Invisible</li>
+		<li>Outline Images &#8595;</li>
+					<ul class="listsub">
+					<li>Outline All Images</li>
+					<li>Outline Background Images</li>
+					<li>Outline Images With Adjusted Dimensions</li>
+					<li>Outline Images With Empty Alt Attributes</li>
+					<li>Outline Images With Oversized Dimensions</li>
+					<li>Outline Images Without Alt Attributes</li>
+					<li>Outline Images Without Dimensions</li>
+					</ul>				
+<li>Reload Images</li>
+<li>Replace Images With Alt Attributes</li>
+<li>View Image Information</li>
+</ul>
+<hr>
+
+<h3 id="Information"><strong>Information</strong></h3>
+<ul class="listmargin">
+<li>Display Abbreviations</li>
+<li>Display Access Keys</li>
+<li>Display Anchors</li>
+<li>Display ARIA Roles</li>
+<li>Display Div Dimensions</li>
+<li>Display Div Order</li>
+<li>Display Element Information</li>
+<li>Display Id &amp; Class Details</li>
+<li>Display Link Details</li>
+<li>Display Object Information</li>
+<li>Display Stack Levels</li>
+<li>Display Tab Index</li>
+<li>Display Table Depth</li>
+<li>Display Table Information</li>
+<li>Display Title Attributes</li>
+<li>Display Topographic Information</li>
+<li>Find Duplicate Ids</li>
+<li>View Anchor Information</li>
+<li>View Color Information</li>
+<li>View Document Outline</li>
+<li>View Document Size</li>
+<li>View JavaScript</li>
+<li>View Link Information</li>
+<li>View Meta Tag Information</li>
+<li>View Page Information</li>
+<li>View Response Headers</li>
+</ul>
+<hr>
+
+<h3 id="Miscellaneous"><strong>Miscellaneous</strong></h3>
+<ul class="listmargin">
+		<li>Clear Private Data &#8595;</li>
+					<ul class="listsub">
+					<li>Clear Cache</li>
+					<li>Clear History</li>
+					<li>Clear HTTP Authentication</li>
+					<li>Clear All Private Data...</li>
+					</ul>
+<li>Display Hidden Elements</li>
+<li>Display Line Guides</li>
+<li>Display Page Magnifier</li>
+<li>Display Ruler</li>
+<li>HTML</li>
+<li>Linearize Page</li>
+<li>Make Frames Resizable</li>
+		<li>Toggle Visited Links &#8595;</li>
+					<ul class="listsub">
+					<li>Mark All Links Unvisited</li>
+					<li>Mark All Links Visited</li>
+					</ul>
+</ul>
+<hr>
+
+<h3 id="Outline"><strong>Outline</strong></h3>
+<ul class="listmargin">
+<li>Outline Block Level Elements</li>
+<li>Outline Custom Elements...</li>
+<li>Outline Deprecated Elements</li>
+<li>Outline External Links</li>
+<li>Outline Floated Elements</li>
+<li>Outline Frames</li>
+<li>Outline Headings</li>
+<li>Outline Non-Secure Elements</li>
+		<li>Outline Positioned Elements &#8595;</li>
+						<ul class="listsub">
+						<li>Outline Absolute Positioned Elements</li>
+						<li>Outline Fixed Positioned Elements</li>
+						<li>Outline Relative Positioned Elements</li>
+						</ul>
+		<li>Outline Tables &#8595;</li>
+						<ul class="listsub">
+						<li>Outline Table Captions</li>
+						<li>Outline Table Cells</li>
+						<li>Outline Tables</li>									
+						</ul>
+<li>Show Element Tag Names When Outlining</li>
+</ul>
+<hr>
+
+<h3 id="Resize"><strong>Resize</strong></h3>
+<ul class="listmargin">
+<li>Display Window Size</li>
+<li>Display Window Size In Title</li>
+<li>Resize Window...</li>
+<li>Edit Resize Dimensions...</li>
+<li>View Responsive Layouts</li>
+</ul>
+<hr>
+
+<h3 id="Tools"><strong>Tools</strong></h3>
+<ul class="listmargin">
+<li>Edit Tools...</li>
+<li>Display Page Validation</li>
+<li>DOM Inspector</li>
+<li>Error Console</li>
+<li>Validate Local CSS</li>
+<li>Validate Local HTML</li>
+</ul>
+<hr>
+
+<h3 id="Source"><strong>View Source</strong></h3>
+<ul class="listmargin">
+<li>View Frame Source</li>
+<li>View Generated Source</li>
+<li>Edit View Source With Applications...</li>
+</ul>
+<hr>
+<h3 id="Options"><strong>Options</strong></h3>
+<ul class="listmargin">
+<li>Pin Features</li>
+		<li>Active Features &#8595;</li>
+					<ul class="listsub">
+					<li>Reset Page</li>
+					</ul>
+<li>Options...</li>
+<li>Help...</li>
+<li>About...</li>
+</ul>
+
+<p id="pf">
+Web Developer Features List created by <a href="http://www.accessfirefox.org/AFx_About_Ken_Saunders.php">Ken Saunders</a> for the <a href="http://www.accessfirefox.org">Access Firefox Project</a>
+</p>
+
+</body>
+</html>
+
+		
